@@ -22,24 +22,7 @@
   --mellis-font-two: 'Libre Baskerville', serif;
   --mellis-font-three: 'Parisienne', cursive;
 
-
-/* --mellis-white: #fdfaf6;               
---mellis-white-rgb: 253, 250, 246;
-
---mellis-base: #8b5e3c;                
---mellis-base-rgb: 139, 94, 60;
-
---mellis-black: #2e2b28;              
---mellis-black-rgb: 46, 43, 40;
-
---mellis-extra: #f5eee6;              
---mellis-extra-rgb: 245, 238, 230;
-
---mellis-gray: #a89f97;               
---mellis-gray-rgb: 168, 159, 151;
-
---mellis-bdr-color: #e2d6ca;           */
-
+/* 
 --mellis-white: #fdfaf6;
 --mellis-white-rgb: 253, 250, 246;
 --mellis-base: #8b5e3c;
@@ -51,9 +34,9 @@
 --mellis-gray: #a89f97;
 --mellis-gray-rgb: 168, 159, 151;
 --mellis-bdr-color: #e2d6ca;
---mellis-bdr-color-rgb: 226, 214, 202;
+--mellis-bdr-color-rgb: 226, 214, 202; */
 
-  /* --mellis-white: #ffffff;
+  --mellis-white: #ffffff;
   --mellis-white-rgb: 255, 255, 255;
   --mellis-base: #de968d;
   --mellis-base: #6f4e37;
@@ -66,7 +49,7 @@
   --mellis-gray: #89868d;
   --mellis-gray-rgb: 137, 134, 141;
   --mellis-bdr-color: #f0e8e8;
-  --mellis-bdr-color-rgb: 240, 232, 232; */
+  --mellis-bdr-color-rgb: 240, 232, 232;
 
   --mellis-letter-spacing: 0.1em
 }
