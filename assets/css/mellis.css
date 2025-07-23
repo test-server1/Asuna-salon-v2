@@ -21,18 +21,18 @@
   --mellis-font: 'Manrope', sans-serif;
   --mellis-font-two: 'Libre Baskerville', serif;
   --mellis-font-three: 'Parisienne', cursive;
-  --mellis-white: #fdfaf6;
---mellis-white-rgb: 253, 250, 246;
---mellis-base: #8b5e3c;
---mellis-base-rgb: 139, 94, 60;
---mellis-black: #2e2b28;
---mellis-black-rgb: 46, 43, 40;
---mellis-extra: #f5eee6;
---mellis-extra-rgb: 245, 238, 230;
---mellis-gray: #a89f97;
---mellis-gray-rgb: 168, 159, 151;
---mellis-bdr-color: #e2d6ca;
---mellis-bdr-color-rgb: 226, 214, 202;
+  --mellis-white: #fefbf8;
+  --mellis-white-rgb: 254, 251, 248;
+  --mellis-base: #b08968;
+  --mellis-base-rgb: 176, 137, 104;
+  --mellis-black: #40342c;
+  --mellis-black-rgb: 64, 52, 44;
+  --mellis-extra: #f6f0ea;
+  --mellis-extra-rgb: 246, 240, 234;
+  --mellis-gray: #c2b7ae;
+  --mellis-gray-rgb: 194, 183, 174;
+  --mellis-bdr-color: #e4d7cc;
+  --mellis-bdr-color-rgb: 228, 215, 204;
   --mellis-letter-spacing: 0.1em
 }
 
@@ -444,7 +444,7 @@ ul {
   animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-image: url(../images/loader.png);
+  background-image: url(../images/loader.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60px auto;
@@ -6880,7 +6880,7 @@ ul {
   border: none;
   height: 442px;
   width: 100%;
-  mix-blend-mode: luminosity;
+  mix-blend-mode: multiply;
 }
 
 /*--------------------------------------------------------------
