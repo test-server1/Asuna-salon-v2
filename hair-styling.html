@@ -50,6 +50,19 @@
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/mellis.css" />
     <link rel="stylesheet" href="assets/css/mellis-responsive.css" />
+
+    <style>
+        .expand-trigger {
+    color: #c89c6c;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.expand-content {
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+    </style>
 </head>
 
 <body>
@@ -199,45 +212,119 @@
                             <div class="services-details-two__img">
                                 <img src="assets/images/My-images/hair-3.jpg" alt="">
                             </div>
+
                             <h3 class="services-details-two__title-1">Hair Dressing & Styling</h3>
-                            <p class="services-details-two__text-1">At Asuna Salon, we combine expert hairdressing with personalized styling to enhance your natural look. From precision cuts to elegant updos, each service is tailored to fit your face shape, hair type, and personal style—all in the warm, welcoming space of our home-based salon.</p>
-                            <p class="services-details-two__text-2">Whether you're looking for a routine refresh or a bold new change, our goal is to make you feel confident and beautiful. We use high-quality products and techniques to ensure long-lasting results while keeping your hair healthy and vibrant.</p>
-                            <h3 class="services-details-two__title-2">Why Choose Our Hair Services?</h3>
-                            <p class="services-details-two__text-3">Our hair treatments aren’t just about looks—they help restore your hair's strength, improve texture, and promote overall scalp health.</p>
-                            <ul class="services-details-two__points list-unstyled">
+
+                            <p class="services-details-two__text-1">
+                                At Asuna Salon, we combine expert hairdressing with personalized styling to enhance your natural look. From precision cuts to elegant updos, each service is tailored to fit your face shape, hair type, and personal style—all in the warm, welcoming space of our home-based salon.
+                            </p>
+                            <p class="services-details-two__text-2">
+                                Whether you're looking for a routine refresh or a bold new change, our goal is to make you feel confident and beautiful. We use high-quality products and techniques to ensure long-lasting results while keeping your hair healthy and vibrant.
+                            </p>
+
+                            <!-- NEW SECTION: Ash & Silver color -->
+                            <h3 class="services-details-two__title-2">Ash & Silver color Specialist for Asian and European Hair</h3>
+                            <p class="services-details-two__text-3">
+                                At Asuna Salon, we specialize in creating flawless ash and silver tones tailored to both Asian and European hair types. With deep expertise in color correction, we achieve cool, luminous results—whether you’re transitioning to silver, seeking icy balayage, or want that perfect ash blonde.
+                                Every formula is customized to suit your hair’s natural undertone and texture, ensuring a result that’s vibrant, even, and long-lasting without compromising hair health.
+                            </p>
+
+                            <ul style="margin-bottom: 37px;" class="services-details-two__points list-unstyled">
                                 <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Customized haircuts and styling for all hair types.</p>
-                                    </div>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text"><p>Luxury, high-end tone with a professional touch.</p></div>
                                 </li>
                                 <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Gentle handling and nourishing products for hair health.</p>
-                                    </div>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text"><p>Specialist in seamless Asian and European haircuts.</p></div>
                                 </li>
                                 <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Relaxing experience in a quiet, home-based setting.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Perfect for everyday care or special occasions.</p>
-                                    </div>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text"><p>Face-framing layers and soft volume tailored to texture.</p></div>
                                 </li>
                             </ul>
+
+                            <!-- NEW SECTION: Treatment Importance -->
+                            <h3 class="services-details-two__title-2">Why Treatment Is Important During color Services</h3>
+                            <p class="services-details-two__text-3">
+                                Color-treated hair often becomes dry or weak. A balanced moisture and protein treatment restores elasticity, strength, and softness—making hair more resilient and vibrant.
+                            </p>
+
+                            <!-- NEW SECTION: Why Framesi -->
+                            <h3 class="services-details-two__title-2">Why We Choose Framesi Treatments</h3>
+                            <p class="services-details-two__text-3">
+                                Framesi is packed with powerful ingredients like keratin and amino acids that rebuild the hair’s structure. These treatments help repair damage and make your hair stronger and healthier.
+                            </p>
+                            <ul style="margin-bottom: 37px;" class="services-details-two__points list-unstyled">
+                                <li>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text">
+                                        <p><strong>Stronger Hair:</strong> Framesi replenishes lost keratin and amino acids, the foundation of hair structure.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text">
+                                        <p><strong>Less Breakage:</strong> Smooths and seals gaps in the cuticle caused by heat or chemical stress.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text">
+                                        <p><strong>Deep Hydration:</strong> Humectants restore moisture and improve elasticity.</p>
+                                    </div>
+                                </li>
+                                <!-- <li>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text">
+                                        <p><strong>Heat & Environmental Protection:</strong> Antioxidants and thermal protectants reduce damage from styling and pollution.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text">
+                                        <p><strong>Natural Shine:</strong> Smoother cuticles reflect more light for a glossy finish.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text">
+                                        <p><strong>Personalized Care:</strong> Tailored ingredients address your unique hair condition.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text">
+                                        <p><strong>Long-Lasting color:</strong> UV filters and color-locking agents protect vibrancy.</p>
+                                    </div>
+                                </li> -->
+                            </ul>
+
+                            <!-- Why Choose Section -->
+                            <h3 class="services-details-two__title-2">Why Choose Our Hair Services?</h3>
+                            <p class="services-details-two__text-3">
+                                Our hair treatments aren’t just about looks—they help restore your hair's strength, improve texture, and promote overall scalp health.
+                            </p>
+                            <ul class="services-details-two__points list-unstyled">
+                                <li>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text"><p>Customized haircuts and styling for all hair types.</p></div>
+                                </li>
+                                <li>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text"><p>Gentle handling and nourishing products for hair health.</p></div>
+                                </li>
+                                <li>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text"><p>Relaxing experience in a quiet, home-based setting.</p></div>
+                                </li>
+                                <li>
+                                    <div class="icon"><span class="fa fa-check"></span></div>
+                                    <div class="text"><p>Perfect for everyday care or special occasions.</p></div>
+                                </li>
+                            </ul>
+
+                            <!-- FAQ Section -->
                             <div class="services-details-two__faq">
                                 <div class="accrodion-grp" data-grp-name="faq-one-accrodion">
                                     <div class="accrodion">
@@ -282,8 +369,14 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-xl-10">
+                                    <div class="services-two__btn-box">
+                                        <a href="pricing-plans.html" class="thm-btn services-two__btn">Our Pricing</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -425,6 +518,24 @@
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const triggers = document.querySelectorAll(".expand-trigger");
+
+        triggers.forEach(trigger => {
+            trigger.style.cursor = "pointer";
+            trigger.addEventListener("click", function () {
+                const content = this.nextElementSibling;
+                const isVisible = content.style.display === "block";
+
+                content.style.display = isVisible ? "none" : "block";
+                this.textContent = isVisible ? "Learn more" : "Show less";
+            });
+        });
+    });
+</script>
 
     <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
