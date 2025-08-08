@@ -17,6 +17,29 @@
 /*--------------------------------------------------------------
 # Common
 --------------------------------------------------------------*/
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #8bcba2;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  z-index: 1000;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whatsapp-float img {
+  width: 32px;
+  height: 32px;
+}
+
+
 :root {
   --mellis-font: 'Manrope', sans-serif;
   --mellis-font-two: 'Libre Baskerville', serif;
@@ -25,16 +48,36 @@
   --mellis-white-rgb: 254, 251, 248;
   --mellis-base: #b08968;
   --mellis-base-rgb: 176, 137, 104;
-  --mellis-black: #40342c;
+  --mellis-black: #241f1d;
   --mellis-black-rgb: 64, 52, 44;
   --mellis-extra: #f6f0ea;
+  --mellis-extra-rgb: 246, 240, 234;
+  --mellis-gray: #4b4b4b;
+  --mellis-gray-rgb: 194, 183, 174;
+  --mellis-bdr-color: #e4d7cc;
+  --mellis-bdr-color-rgb: 228, 215, 204;
+  --mellis-letter-spacing: 0.1em
+}
+
+/* :root {
+  --mellis-font: 'Manrope', sans-serif;
+  --mellis-font-two: 'Libre Baskerville', serif;
+  --mellis-font-three: 'Parisienne', cursive;
+  --mellis-white: #fefbf8;
+  --mellis-white-rgb: 254, 251, 248;
+  --mellis-base: #b08968;
+  --mellis-base-rgb: 176, 137, 104;
+  --mellis-black: #675D50;
+  --mellis-black-rgb: 64, 52, 44;
+  --mellis-extra: #d3cec3;
   --mellis-extra-rgb: 246, 240, 234;
   --mellis-gray: #c2b7ae;
   --mellis-gray-rgb: 194, 183, 174;
   --mellis-bdr-color: #e4d7cc;
   --mellis-bdr-color-rgb: 228, 215, 204;
   --mellis-letter-spacing: 0.1em
-}
+} */
+
 
 .row {
   --bs-gutter-x: 30px;
@@ -7004,7 +7047,7 @@ ul {
 }
 
 .services-details-two__help-line-icon:hover {
-  background-color: var(--mellis-black);
+  background-color: var(--mellis-base);
 }
 
 .services-details-two__help-line-icon span {
