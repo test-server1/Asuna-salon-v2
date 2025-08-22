@@ -6692,7 +6692,7 @@ ul {
 .spa-center-three {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 40px 0 90px;
   z-index: 1;
 }
 
@@ -6932,7 +6932,7 @@ ul {
 .services-details-two {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 60px 0 120px;
   z-index: 1;
 }
 
@@ -6946,7 +6946,7 @@ ul {
   display: block;
   background-color: var(--mellis-extra);
   padding: 34px 20px 34px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .services-details-two__category-list {
@@ -7029,6 +7029,7 @@ ul {
   background-color: var(--mellis-base);
   text-align: center;
   padding-bottom: 33px;
+  padding-top: 79px;
 }
 
 .services-details-two__help-line-icon {
