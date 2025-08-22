@@ -221,7 +221,7 @@
                                 <span class="section-title__tagline">Contact us</span>
                                 <h2 class="section-title__title">Send a Message</h2>
                             </div>
-                            <p class="contact-page__text">Interested in our spa services? We want your <br> spa
+                            <p class="contact-page__text">Interested in our salon services? We want your <br> salon
                                 experience to
                                 be a memorable one.</p>
                             <div class="contact-page__social">
@@ -234,7 +234,7 @@
                     <div class="col-xl-8 col-lg-7">
                         <div class="contact-page__right">
                             <div class="contact-page__content">
-                                <form action="assets/inc/sendemail.php"
+                                <!-- <form action="assets/inc/sendemail.php"
                                     class="contact-page__form contact-form-validated" novalidate="novalidate">
                                     <div class="row">
                                         <div class="col-xl-6">
@@ -267,7 +267,43 @@
                                                 message</button>
                                         </div>
                                     </div>
-                                </form>
+                                </form> -->
+                                
+                                
+                                
+                                <form id="whatsappForm" class="contact-page__form contact-form-validated">
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                        <div class="contact-page__form-input-box">
+                                            <input type="text" placeholder="Full Name" name="name" required>
+                                        </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                        <div class="contact-page__form-input-box">
+                                            <input type="email" placeholder="Email Address" name="email" required>
+                                        </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                        <div class="contact-page__form-input-box">
+                                            <input type="text" placeholder="Phone" name="phone">
+                                        </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                        <div class="contact-page__form-input-box">
+                                            <input type="text" placeholder="Subject" name="subject">
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="contact-page__form-input-box text-message-box">
+                                        <textarea name="message" placeholder="Write a Message"></textarea>
+                                        </div>
+                                        <div class="contact-page__btn-box">
+                                        <button type="submit" class="thm-btn contact-page__btn">Send a message</button>
+                                        </div>
+                                    </div>
+                                    </form>
+                                
                                 <div class="result"></div>
                             </div>
                         </div>
@@ -427,6 +463,38 @@
     aria-label="Chat on WhatsApp">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/whatsapp.svg" alt="WhatsApp" /> 
     </a>
+
+
+
+    <script>
+        document.getElementById("whatsappForm").addEventListener("submit", function(e) {
+            e.preventDefault(); // stop normal form submit
+
+            // Get form values
+            let name = document.querySelector("[name='name']").value;
+            let email = document.querySelector("[name='email']").value;
+            let phone = document.querySelector("[name='phone']").value;
+            let subject = document.querySelector("[name='subject']").value;
+            let message = document.querySelector("[name='message']").value;
+
+            // WhatsApp number (use international format, no + or spaces)
+            let whatsappNumber = "447931931966"; // replace with your WhatsApp number
+
+            // Build WhatsApp message
+            let whatsappMessage =
+            "Hello Asuno Salon," +
+            "%0A%0A" +
+            "*Name:* " + name + "%0A" +
+            "*Email:* " + email + "%0A" +
+            "*Phone:* " + phone + "%0A" +
+            "*Subject:* " + subject + "%0A" +
+            "*Message:* " + message;
+
+            // Open WhatsApp
+            let url = "https://wa.me/" + whatsappNumber + "?text=" + whatsappMessage;
+            window.open(url, "_blank");
+        });
+    </script>
 
     <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
