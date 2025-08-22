@@ -7033,8 +7033,7 @@ ul {
 .services-details-two__help-line-content {
   background-color: var(--mellis-base);
   text-align: center;
-  padding-bottom: 33px;
-  padding-top: 79px;
+  padding: 33px 0px;
 }
 
 .services-details-two__help-line-icon {
@@ -7072,7 +7071,6 @@ ul {
 .services-details-two__help-line-sub-title {
   font-family: var(--mellis-font-two);
   color: var(--mellis-white);
-  margin-top: 21px;
 }
 
 .services-details-two__help-number {
